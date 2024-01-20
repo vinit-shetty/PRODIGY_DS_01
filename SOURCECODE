@@ -1,0 +1,17 @@
+data <- read.csv("C:/Users/hp/Downloads/gender.csv")
+
+# Clean and standardize the 'Gender' column
+data$Gender <- tolower(trimws(data$Gender))
+
+# Count occurrences of each gender
+gender_counts <- table(data$Gender)-
+
+# Create a bar chart for gender distribution
+barplot(gender_counts, col=c('pink', 'blue'), 
+        main='Distribution of Genders in the Population', xlab='Gender', 
+        ylab='Count',ylim=c(0,80))
+
+# Histogram for age distribution
+hist(data$Age, breaks=20, col='green', border='black', 
+    main='Distribution of Ages in the Population', xlab='Age', ylab='Count',
+    xlim=c(20,60),ylim=c(0,20))
