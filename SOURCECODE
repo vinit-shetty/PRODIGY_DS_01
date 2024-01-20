@@ -1,4 +1,4 @@
-data <- read.csv("C:/Users/hp/Downloads/gender.csv")
+data <- read.csv("gender.csv")
 
 # Clean and standardize the 'Gender' column
 data$Gender <- tolower(trimws(data$Gender))
