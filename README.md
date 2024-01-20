@@ -11,14 +11,20 @@ The dataset used in this analysis is sourced from the "gender.csv" file. Ensure 
 _Prerequisites_
 
 Make sure you have the following installed before running the script:
+
 ->R (https://www.r-project.org/)
+
 ->RStudio (optional but recommended) (https://www.rstudio.com/)
+
 
 _Setup_
 
 ->Clone or download this repository to your local machine.
+
 ->Open the R script in an R environment (e.g., RStudio).
+
 ->Ensure that the "gender.csv" file is in the same directory as the R script.
+
 ->Run the script to generate visualizations.
 
 _Usage_
@@ -32,19 +38,26 @@ The script generates visualizations illustrating the distribution of genders and
 _Gender Distribution_
 
 ->Bar chart with two colors ('pink' and 'blue') representing different genders.
+
 ->X-axis: Gender
+
 ->Y-axis: Count
+
 ->Title: Distribution of Genders in the Population
 
 
 _Age Distribution_
 
 ->Histogram with green bars and a black border.
+
 ->X-axis: Age
+
 ->Y-axis: Count
+
 ->Title: Distribution of Ages in the Population
 
 _Notes_
 
 ->Ensure that the dataset is correctly formatted and accessible.
+
 ->Customize visual elements or chart settings based on specific requirements.
