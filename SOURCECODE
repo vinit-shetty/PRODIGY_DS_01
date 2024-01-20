@@ -4,7 +4,7 @@ data <- read.csv("gender.csv")
 data$Gender <- tolower(trimws(data$Gender))
 
 # Count occurrences of each gender
-gender_counts <- table(data$Gender)-
+gender_counts <- table(data$Gender)
 
 # Create a bar chart for gender distribution
 barplot(gender_counts, col=c('pink', 'blue'), 
